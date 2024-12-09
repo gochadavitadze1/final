@@ -1,0 +1,135 @@
+
+body{
+    background-color: lightgray;}
+nav{
+	background-color: cornsilk;
+	transition: background-color 0.3s ease, color 0.3s ease;
+}
+nav:hover{
+	background-color: gold;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+   
+}
+
+   
+    li {
+    display: inline-;
+    margin-right: 20px;
+
+}
+
+.navigacia{
+	 font-weight: bold;
+     transition-property: transform;
+     transition-duration:  0.3s;
+     transition-timing-function: ease;
+     transition-delay: ;
+     transition: transform 0.3s, background-color 0.3s , color 0.3s ;
+     text-decoration: none;
+     display: inline-flex;
+
+}
+.fb{
+    height: 50px;
+    width: 50px;
+    margin-left: 40px;
+    margin-top: 10px;
+       transition: transform 0.3s ease;
+    /*smooth transition */
+}
+.fb:hover{
+      transform: scale(1.2);
+margin-top: 10px;
+}
+.foto{
+   width: 50px;
+   height: 50px;
+   transition: transform 0.3s ease;
+    /*smooth transition */
+}
+.foto:hover{
+     transform: scale(1.2);
+}
+.main-link {
+    margin-left: 10px;
+    margin: 100px;
+    width: 115px;
+    height: 34px;
+    color: darkgreen;
+    text-decoration: none;
+    font-size: 20px;
+font-weight: 400;
+line-height: 24.14px;
+text-align: left;
+ transition: transform 0.3s ease;
+
+    /*smooth transition */
+}
+.main-link:hover{
+    transform: scale(1.2);
+}
+.news-link {
+    margin-right: 100px;
+    width: 223px;
+    height: 58px;
+    color: limegreen;
+    text-decoration: none;
+font-size: 20px;
+font-weight: 400;
+line-height: 24.14px;
+text-align: left;
+     transition: transform 0.3s ease;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    /*smooth transition */
+}
+.news-link:hover{
+transform: scale(1.2);
+}
+.contact-link {
+    color:limegreen;
+    text-decoration: none;
+    font-size: 20px;
+font-weight: 400;
+line-height: 24.14px;
+text-align: left;
+  transition: transform 0.3s ease;
+   transition: background-color 0.3s ease, color 0.3s ease;
+    /*smooth transition */
+}
+.contact-link:hover{
+    transform: scale(1.2);
+}
+.news{ color:limegreen;
+    text-decoration: none;
+    font-size: 20px;
+font-weight: 400;
+line-height: 24.14px;
+text-align: left;
+  transition: transform 0.3s ease;
+   margin-right: 100px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+}
+.news:hover{
+	transform:scale(1.2);
+}
+.service{
+ color:limegreen;
+    text-decoration: none;
+    font-size: 20px;
+font-weight: 400;
+line-height: 24.14px;
+text-align: left;
+  transition: transform 0.3s ease;
+   margin-right: 100px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.service:hover{
+	transform: scale(1.2);
+}
