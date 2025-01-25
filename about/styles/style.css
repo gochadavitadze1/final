@@ -118,39 +118,192 @@ body {
 .foto:hover{
      transform: scale(1.2);
 }
-muzeumi1{
-   display:flex;
+/* General Body and Page Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #fafafa;
+    color: #333;
 }
-.kviaxidzeebi{
-    height: 150px;
-    width: 150px;
-}
-.nigazeuli{
-    display: flex;
-}
-.nig{
-    height: 150px;
-    width: 150px;
-}
-h2{
-      margin-left: 500px;
+
+h2 {
+    text-align: center;
     font-size: 40px;
+    margin-bottom: 40px;
+    color: #2c3e50;
 }
-.history{
-    margin-left: 420px;
+
+/* Accordion Button Styling */
+.accordion-button {
+    background-color: #3498db;
+    color: white;
+    padding: 18px;
+    width: 100%;
+    border: 1px solid #2980b9;
+    text-align: left;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.accordion-button:hover {
+    background-color: #2980b9;
+    border-color: #21618c;
+}
+
+/* Accordion Toggle Checkbox */
+.accordion-toggle {
+    display: none;
+}
+
+/* Panel Content Styling */
+.panel {
+    display: none;
+    background-color: #ecf0f1;
+    padding: 20px;
+    border: 1px solid #bdc3c7;
+    border-radius: 8px;
+    margin-top: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Image Styling Inside Panel */
+.museum-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+/* Paragraph Text Styling */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #7f8c8d;
+    margin-bottom: 10px;
+}
+
+/* Show Panel When Checkbox is Checked */
+.accordion-toggle:checked + .panel {
+    display: block;
+}
+
+/* Transition Effects for Panel */
+.panel {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.accordion-toggle:checked + .panel {
+    opacity: 1;
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 600px) {
+    .accordion-button {
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+}
+/* General Body and Page Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #fafafa;
+    color: #333;
+}
+
+.istoriuli{
+    text-align: center;
     font-size: 40px;
+    margin-bottom: 40px;
+    color: #2c3e50;
 }
-.gamonatlevi{
-    height: 150px;
-    width: 150px;
+
+/* Accordion Button Styling */
+.accordion-button {
+    background-color: #3498db;
+    color: white;
+    padding: 18px;
+    width: 100%;
+    border: 1px solid #2980b9;
+    text-align: left;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    margin-bottom: 10px;
+    display: block;
 }
-.gamo{
-    display: flex;
+
+.accordion-button:hover {
+    background-color: #2980b9;
+    border-color: #21618c;
 }
-.otolta{
-    display: flex;
+
+/* Accordion Toggle Checkbox */
+.accordion-toggle {
+    display: none;
 }
-.mtavari{
-   font-weight: 20px
-    display:inline;
+
+/* Panel Content Styling */
+.panel {
+    display: none;
+    background-color: #ecf0f1;
+    padding: 20px;
+    border: 1px solid #bdc3c7;
+    border-radius: 8px;
+    margin-top: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
+/* Image Styling Inside Panel */
+.museum-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+/* Paragraph Text Styling */
+.meore{
+    font-size: 16px;
+    line-height: 1.6;
+    color: #7f8c8d;
+    margin-bottom: 10px;
+}
+
+/* Show Panel When Checkbox is Checked */
+.accordion-toggle:checked + .panel {
+    display: block;
+}
+
+/* Transition Effects for Panel */
+.panel {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.accordion-toggle:checked + .panel {
+    opacity: 1;
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 600px) {
+    .accordion-button {
+        font-size: 16px;
+    }
+
+    .istoriuli {
+        font-size: 30px;
+    }
+}
+

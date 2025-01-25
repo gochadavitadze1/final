@@ -7,10 +7,12 @@
 html{
     width: 100%;
     height: 100%;
+
 }
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
+    background-image: ;
 }
 
 
@@ -171,5 +173,93 @@ h2{
     display: flex;
 }
 .otolta{
+    display: flex;
+}
+.calendar-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+.calendar-header {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    padding: 5px;
+}
+
+td {
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+td:hover {
+    background-color: #3498db;
+    color: white;
+}
+
+td.empty {
+    background-color: #f4f4f4;
+    cursor: default;
+}.weather-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+.weather-header h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.weather-info {
+    margin-bottom: 20px;
+}
+
+.temperature .temp {
+    font-size: 50px;
+    color: #3498db;
+    font-weight: bold;
+}
+
+.weather-description p {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0;
+}
+
+.icon img {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.weather-footer p {
+    font-size: 14px;
+    color: #777;
+    margin-top: 10px;
+}
+.ertad{
     display: flex;
 }
